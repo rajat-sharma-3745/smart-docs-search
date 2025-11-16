@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="min-h-screen  relative overflow-hidden">
 
-      <div className="absolute inset-0 -z-10 bg-linear-to-br from-indigo-300 via-white to-purple-300"></div>
+      <div className="absolute inset-0 -z-10 bg-linear-to-br from-indigo-200 via-orange to-purple-200"></div>
 
       {/* <div className="absolute top-[10%] left-[10%] w-[400px] h-[400px] bg-purple-300 rounded-full opacity-20 blur-3xl -z-10"></div>
       <div className="absolute bottom-[10%] right-[10%] w-[450px] h-[450px] bg-indigo-300 rounded-full opacity-20 blur-3xl -z-10"></div> */}
@@ -33,7 +33,7 @@ const Home = () => {
 
           <Link
             to="/search"
-            className="px-7 py-4 rounded-xl border border-gray-300 font-medium hover:bg-gray-100 transition"
+            className="px-7 py-4 rounded-xl border border-gray-700 font-medium hover:bg-gray-100 transition"
           >
             Search Library
           </Link>

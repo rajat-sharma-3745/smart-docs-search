@@ -39,6 +39,27 @@ const DocumentsPage = () => {
       >
         All Documents
       </h1>
+      {loading && (
+        <div className="mb-6 p-4 rounded-xl bg-yellow-50 border border-yellow-200 text-yellow-700 text-sm flex items-center gap-2">
+          <svg
+            className="w-5 h-5 text-yellow-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M12 9v2m0 4h.01M4.93 4.93A10 10 0 1 1 19.07 19.07 10 10 0 0 1 4.93 4.93z"
+            />
+          </svg>
+          <span>
+            Our server is waking up — this may take a few seconds since it's
+            hosted on Render.
+          </span>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         {loading ? (
