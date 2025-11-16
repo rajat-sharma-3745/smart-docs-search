@@ -40,7 +40,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-10">
+      <section className="max-w-3xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10">
 
         <div className="p-8 rounded-3xl border border-gray-200 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] transition hover:shadow-lg">
           <h3 className="text-xl font-semibold mb-3">Lightning Fast Search</h3>
@@ -56,12 +56,12 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="p-8 rounded-3xl border border-gray-200 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] transition hover:shadow-lg">
+        {/* <div className="p-8 rounded-3xl border border-gray-200 bg-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] transition hover:shadow-lg">
           <h3 className="text-xl font-semibold mb-3">Unified Dashboard</h3>
           <p className="text-gray-600">
             Browse, filter, and manage documents in one clean, intuitive dashboard.
           </p>
-        </div>
+        </div> */}
 
       </section>
 
